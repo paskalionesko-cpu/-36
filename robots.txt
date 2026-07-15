@@ -1,0 +1,28 @@
+# Robots.txt для сайта "Защита в Воронеже"
+# Адвокат, военный адвокат, юрист, риелтор в Воронеже
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /.mimocode/
+
+# Специальные правила для Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /assets/
+Disallow: /.mimocode/
+Clean-param:utm_source&utm_medium&utm_campaign
+Clean-param:ref
+
+# Запрет для SEO-спам ботов
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://xn---36-5cda4bi4fxc.xn--p1ai/sitemap.xml
